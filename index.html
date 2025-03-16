@@ -1,41 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <title>HNIN MYA</title>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML Embeds MYA THANDAR</title>
-    <style>
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-      }
-      .embed {
-        width: 100%;
-        aspect-ratio: 16 / 9;
-        border-radius: 16px;
-      }
-    </style>
+
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <div class="container">
+    <img src="Hnin Mya.jpg"  />
+    <h1>Homework</h1>
+
+    <p>
+      Create a responsive grid with 5 YouTube videos, the first row should have
+      2 columns and the second row should have 3 columns
+    </p>
+
+    <div class="video-grid-2-columns">
       <iframe
-        class="embed"
-        src="https://www.youtube.com/embed/-dLDifsmJo4?controls=0&amp;start=60"
+        class="video"
+        src="https://www.youtube.com/embed/ad0Dm4Cq1IQ"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
       ></iframe>
       <iframe
-        class="embed"
-        src="https://open.spotify.com/embed/track/6P6pkCyaZgTguvcmo7KF66?utm_source=generator"
+        class="video"
+        src="https://www.youtube.com/embed/hWhLodgcnlo"
+        title="YouTube video player"
         frameborder="0"
-        allowfullscreen=""
-        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
       ></iframe>
     </div>
+    <div class="video-grid-3-columns">
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/NDxdSxY5mco"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/rpWwqFugjmo"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/o8qcv87V46U"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <script src="src/index.js"></script>
   </body>
 </html>
